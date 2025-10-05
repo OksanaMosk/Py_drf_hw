@@ -8,8 +8,6 @@ __pycache__/
 # PyCharm
 .idea/
 
-# Env
-.env
 
 # MySQL / Docker
 mysql/
