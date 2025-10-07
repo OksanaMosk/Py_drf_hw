@@ -1,7 +1,7 @@
 from django.db import models
 class PizzaModel(models.Model):
     class Meta:
-        db_table = 'Pizzas2'
+        db_table = 'pizza'
     name = models.CharField(max_length=30)
     price = models.FloatField()
     size = models.IntegerField()
