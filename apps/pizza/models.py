@@ -1,5 +1,9 @@
 from django.db import models
-class PizzaModel(models.Model):
+
+from core.models import BaseModel
+
+
+class PizzaModel(BaseModel):
     class Meta:
         db_table = 'pizza'
     name = models.CharField(max_length=30)
