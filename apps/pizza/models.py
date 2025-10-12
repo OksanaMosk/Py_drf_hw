@@ -1,5 +1,7 @@
 from django.db import models
 
+from apps.pizza_shops.models import PizzaShopModel
+
 from core.models import BaseModel
 
 
@@ -11,3 +13,4 @@ class PizzaModel(BaseModel):
     size = models.IntegerField()
     ingredients =models.JSONField(default=list)
     time_prepared = models.IntegerField()
+    pizza_shop=models.ForeignKey(PizzaShopModel, on_delete=models.CASCADE, related_name='pizzas')
