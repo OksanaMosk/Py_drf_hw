@@ -8,6 +8,7 @@ from django.db.models import JSONField
 from core.enums.regex_enum import RegexEnum
 from core.models import BaseModel
 
+from apps.pizza.managers import PizzaManager
 from apps.pizza_shops.models import PizzaShopModel
 
 
@@ -29,3 +30,4 @@ class PizzaModel(BaseModel):
     day = models.CharField(max_length=9, choices=DayChoice.choices)
     time_prepared = models.IntegerField()
     pizza_shop=models.ForeignKey(PizzaShopModel, on_delete=models.CASCADE, related_name='pizzas')
+    objects = PizzaManager()
