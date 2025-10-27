@@ -1,28 +1,22 @@
-[project]
+[tool.poetry]
 name = "py-drf-hw"
 version = "0.1.0"
 description = ""
-authors = [
-    {name = "OksanaMosk",email = "oks-m3@ukr.net"}
-]
+authors = ["OksanaMosk <oks-m3@ukr.net>"]
 readme = "README.md"
-requires-python = ">=3.13"
-dependencies = [
-    "djangorestframework (>=3.16.1,<4.0.0)",
-    "mysqlclient (>=2.2.7,<3.0.0)",
-    "python-dotenv (>=1.0.0,<2.0.0)",
-    "django-dotenv (>=1.4.2,<2.0.0)",
-    "django-filter (>=25.2,<26.0)",
-    "djangorestframework-simplejwt (>=5.5.1,<6.0.0)"
 
-]
+[tool.poetry.dependencies]
+python = ">=3.13"
+Django = "^5.1"
+djangorestframework = ">=3.16.1,<4.0.0"
+mysqlclient = ">=2.2.7,<3.0.0"
+python-dotenv = ">=1.0.0,<2.0.0"
+django-filter = ">=25.2,<26.0"
+djangorestframework-simplejwt = ">=5.5.1,<6.0.0"
 
+[tool.poetry.group.dev.dependencies]
+isort = ">=6.1.0,<7.0.0"
 
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
-
-[dependency-groups]
-dev = [
-    "isort (>=6.1.0,<7.0.0)"
-]

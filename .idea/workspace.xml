@@ -4,21 +4,72 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b04446ee-e356-4be2-8a96-a0c95b632f3c" name="Changes" comment="hw-4">
-      <change afterPath="$PROJECT_DIR$/apps/auth/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/pizza/managers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/user/managers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/user/serializers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/user/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configs/extra_conf/jwt_conf.py" afterDir="false" />
+    <list default="true" id="b04446ee-e356-4be2-8a96-a0c95b632f3c" name="Changes" comment="hw-5">
+      <change afterPath="$PROJECT_DIR$/backend/core/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/core/enums/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/core/management/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/core/management/commands/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/core/management/commands/wait_db.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nginx.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Py_drf_hw.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Py_drf_hw.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/pizza/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/pizza/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/pizza/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/pizza/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configs/extra_conf/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/configs/extra_conf/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configs/extra_conf/rest_conf.py" beforeDir="false" afterPath="$PROJECT_DIR$/configs/extra_conf/rest_conf.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configs/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/configs/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configs/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/configs/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/auth/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/auth/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/apps/auth/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/auth/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/apps/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/auth/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/apps/auth/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/auth/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/apps/auth/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/auth/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/apps/auth/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/pizza/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/apps/auth/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/pizza/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/apps/pizza/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/pizza/filter.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/apps/pizza/filter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/pizza/managers.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/apps/pizza/managers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/pizza/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/apps/pizza/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/pizza/migrations/0002_pizzamodel_pizza_shop.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/apps/pizza/migrations/0002_pizzamodel_pizza_shop.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/pizza/migrations/0003_pizzamodel_day_alter_pizzamodel_name_and_more.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/apps/pizza/migrations/0003_pizzamodel_day_alter_pizzamodel_name_and_more.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/pizza/migrations/0004_alter_pizzamodel_name_alter_pizzamodel_size.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/apps/pizza/migrations/0004_alter_pizzamodel_name_alter_pizzamodel_size.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/pizza/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/apps/auth/migrations/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/pizza/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/apps/pizza/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/pizza/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/apps/pizza/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/pizza/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/apps/pizza/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/pizza/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/apps/pizza/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/pizza_shops/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/apps/pizza/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/pizza_shops/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/apps/pizza_shops/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/pizza_shops/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/apps/pizza_shops/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/pizza_shops/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/apps/pizza/migrations/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/pizza_shops/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/apps/pizza_shops/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/pizza_shops/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/apps/pizza_shops/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/pizza_shops/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/apps/pizza_shops/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/pizza_shops/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/apps/pizza_shops/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/user/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/apps/pizza_shops/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/user/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/apps/user/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/user/managers.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/apps/user/managers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/user/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/apps/user/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/user/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/apps/pizza_shops/migrations/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/user/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/apps/user/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/user/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/apps/user/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/user/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/apps/user/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/user/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/apps/user/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configs/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/apps/user/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configs/asgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/configs/asgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configs/extra_conf/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/configs/extra_conf/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configs/extra_conf/jwt_conf.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/configs/extra_conf/jwt_conf.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configs/extra_conf/rest_conf.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/configs/extra_conf/rest_conf.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configs/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/configs/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configs/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/configs/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configs/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/configs/wsgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/apps/user/migrations/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/core/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/enums/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/configs/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/enums/regex_enum.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/core/enums/regex_enum.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/core/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/pagination.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/core/pagination.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/manage.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/poetry.lock" beforeDir="false" afterPath="$PROJECT_DIR$/poetry.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
     </list>
@@ -40,7 +91,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="hw-4" />
+        <entry key="$PROJECT_DIR$" value="hw-5" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -80,14 +131,14 @@
     &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.pycharm.django.structure.promotion.once.per.project&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;hw-5&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;hw-6&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/fast/PycharmProjects/Py_drf_hw&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.general&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.intellij.python.django.customization.DjangoModulesConfigurable&quot;,
     &quot;settings.editor.splitter.proportion&quot;: &quot;0.28134558&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
@@ -102,8 +153,36 @@
       <recent name="C:\Users\fast\PycharmProjects\Py_drf_hw" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\fast\PycharmProjects\Py_drf_hw\backend" />
+      <recent name="C:\Users\fast\PycharmProjects\Py_drf_hw" />
       <recent name="C:\Users\fast\PycharmProjects\Py_drf_hw\apps" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Py_drf_hw" type="Python.DjangoServer" factoryName="Django server">
+      <module name="Py_drf_hw" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -135,7 +214,9 @@
       <workItem from="1760635187661" duration="5853000" />
       <workItem from="1760641232904" duration="1396000" />
       <workItem from="1760714607236" duration="11586000" />
-      <workItem from="1760869796687" duration="8545000" />
+      <workItem from="1760869796687" duration="23284000" />
+      <workItem from="1760899153683" duration="124000" />
+      <workItem from="1761322093391" duration="14245000" />
     </task>
     <task id="LOCAL-00001" summary="hw1">
       <option name="closed" value="true" />
@@ -185,7 +266,15 @@
       <option name="project" value="LOCAL" />
       <updated>1760294977398</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="hw-5">
+      <option name="closed" value="true" />
+      <created>1760883051165</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1760883051166</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -208,6 +297,18 @@
     <MESSAGE value="2" />
     <MESSAGE value="hw-2" />
     <MESSAGE value="hw-4" />
-    <option name="LAST_COMMIT_MESSAGE" value="hw-4" />
+    <MESSAGE value="hw-5" />
+    <option name="LAST_COMMIT_MESSAGE" value="hw-5" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/backend/configs/settings.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
