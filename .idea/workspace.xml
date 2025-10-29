@@ -4,39 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b04446ee-e356-4be2-8a96-a0c95b632f3c" name="Changes" comment="hw-5">
-      <change afterPath="$PROJECT_DIR$/backend/apps/user/permissions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/configs/extra_conf/email_conf.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/core/enums/action_token_enum.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/core/exceptions/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/core/exceptions/jwt_exception.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/core/services/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/core/services/email_service.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/core/services/file_service.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/core/services/jwt_service.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/templates/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/templates/register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/templates/test_email.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Py_drf_hw.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Py_drf_hw.iml" afterDir="false" />
+    <list default="true" id="b04446ee-e356-4be2-8a96-a0c95b632f3c" name="Changes" comment="lesson-7">
+      <change afterPath="$PROJECT_DIR$/backend/apps/auth/serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/templates/recovery.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/apps/auth/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/apps/auth/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/apps/auth/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/apps/auth/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/apps/pizza/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/apps/pizza/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/apps/pizza/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/apps/pizza/serializers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/apps/pizza/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/apps/pizza/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/apps/pizza/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/apps/pizza/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/apps/user/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/apps/user/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/apps/user/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/apps/user/serializers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/apps/user/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/apps/user/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/apps/user/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/apps/user/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/configs/extra_conf/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/configs/extra_conf/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/configs/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/configs/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/configs/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/configs/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nginx.conf" beforeDir="false" afterPath="$PROJECT_DIR$/nginx.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/poetry.lock" beforeDir="false" afterPath="$PROJECT_DIR$/poetry.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/core/enums/action_token_enum.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/core/enums/action_token_enum.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/core/services/email_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/core/services/email_service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/core/services/jwt_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/core/services/jwt_service.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,15 +25,15 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="hw-6" />
+        <entry key="$PROJECT_DIR$" value="hw-7" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -88,33 +64,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.pycharm.django.structure.promotion.once.per.project": "true",
-    "git-widget-placeholder": "hw-7",
-    "last_opened_file_path": "C:/Users/fast/PycharmProjects/Py_drf_hw",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "database.query.execution",
-    "settings.editor.splitter.proportion": "0.28134558",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.pycharm.django.structure.promotion.once.per.project&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;hw-task-7&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/fast/PycharmProjects/Py_drf_hw&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;database.query.execution&quot;,
+    &quot;settings.editor.splitter.proportion&quot;: &quot;0.28134558&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\fast\PycharmProjects\Py_drf_hw" />
@@ -186,7 +162,8 @@
       <workItem from="1761322093391" duration="14245000" />
       <workItem from="1761588549903" duration="6206000" />
       <workItem from="1761669926234" duration="17805000" />
-      <workItem from="1761722611567" duration="15598000" />
+      <workItem from="1761722611567" duration="22762000" />
+      <workItem from="1761759235183" duration="1266000" />
     </task>
     <task id="LOCAL-00001" summary="hw1">
       <option name="closed" value="true" />
@@ -252,7 +229,15 @@
       <option name="project" value="LOCAL" />
       <updated>1761588761674</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="lesson-7">
+      <option name="closed" value="true" />
+      <created>1761745899064</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1761745899064</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -276,7 +261,8 @@
     <MESSAGE value="hw-2" />
     <MESSAGE value="hw-4" />
     <MESSAGE value="hw-5" />
-    <option name="LAST_COMMIT_MESSAGE" value="hw-5" />
+    <MESSAGE value="lesson-7" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson-7" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
